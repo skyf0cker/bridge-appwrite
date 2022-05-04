@@ -1,0 +1,19 @@
+{
+  "name": "forem-client",
+  "description": "the node forem client developed by typescript",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "debug": "tsc && DEBUG=true node ./dist/test.js",
+    "dev": "tsc && node ./dist/test.js"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.24",
+    "axios": "^0.26.1"
+  }
+}
